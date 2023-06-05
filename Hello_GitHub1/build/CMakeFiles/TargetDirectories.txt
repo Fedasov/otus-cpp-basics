@@ -1,0 +1,3 @@
+C:/Users/User/Desktop/Plus/Hello GitHub/build/CMakeFiles/hello_github.dir
+C:/Users/User/Desktop/Plus/Hello GitHub/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/User/Desktop/Plus/Hello GitHub/build/CMakeFiles/ZERO_CHECK.dir

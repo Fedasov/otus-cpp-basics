@@ -1,6 +1,6 @@
-^C:\USERS\USER\DESKTOP\PLUS\HELLO GITHUB\CMAKELISTS.TXT
+^C:\USERS\USER\DESKTOP\HOSTUBUNTU\HELLO_GITHUB1\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Desktop/Plus/Hello GitHub" "-BC:/Users/User/Desktop/Plus/Hello GitHub/build" --check-stamp-file "C:/Users/User/Desktop/Plus/Hello GitHub/build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User/Desktop/HostUbuntu/Hello_GitHub1 -BC:/Users/User/Desktop/HostUbuntu/Hello_GitHub1/build --check-stamp-file C:/Users/User/Desktop/HostUbuntu/Hello_GitHub1/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

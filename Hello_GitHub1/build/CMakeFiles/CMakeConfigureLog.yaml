@@ -24,9 +24,9 @@ events:
       The output was:
       0
       MSBuild version 17.6.3+07e294721 for .NET Framework
-      Сборка начата 05.06.2023 11:54:57.
+      Сборка начата 05.06.2023 14:11:50.
       
-      Проект "C:\\Users\\User\\Desktop\\Plus\\Hello GitHub\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      Проект "C:\\Users\\User\\Desktop\\HostUbuntu\\Hello_GitHub1\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
       PrepareForBuild:
         Создание каталога "Debug\\".
         Создание каталога "Debug\\CompilerIdC.tlog\\".
@@ -37,7 +37,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\User\\Desktop\\Plus\\Hello GitHub\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\Users\\User\\Desktop\\HostUbuntu\\Hello_GitHub1\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -45,13 +45,13 @@ events:
       FinalizeBuildStatus:
         Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
         Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Сборка проекта "C:\\Users\\User\\Desktop\\Plus\\Hello GitHub\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      Сборка проекта "C:\\Users\\User\\Desktop\\HostUbuntu\\Hello_GitHub1\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
       
       Сборка успешно завершена.
           Предупреждений: 0
           Ошибок: 0
       
-      Прошло времени 00:00:00.65
+      Прошло времени 00:00:00.68
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -59,7 +59,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/User/Desktop/Plus/Hello GitHub/build/CMakeFiles/3.26.4/CompilerIdC/CompilerIdC.exe
+        C:/Users/User/Desktop/HostUbuntu/Hello_GitHub1/build/CMakeFiles/3.26.4/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -77,9 +77,9 @@ events:
       The output was:
       0
       MSBuild version 17.6.3+07e294721 for .NET Framework
-      Сборка начата 05.06.2023 11:54:58.
+      Сборка начата 05.06.2023 14:11:51.
       
-      Проект "C:\\Users\\User\\Desktop\\Plus\\Hello GitHub\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      Проект "C:\\Users\\User\\Desktop\\HostUbuntu\\Hello_GitHub1\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
       PrepareForBuild:
         Создание каталога "Debug\\".
         Создание каталога "Debug\\CompilerIdCXX.tlog\\".
@@ -90,7 +90,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\User\\Desktop\\Plus\\Hello GitHub\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\User\\Desktop\\HostUbuntu\\Hello_GitHub1\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -98,7 +98,7 @@ events:
       FinalizeBuildStatus:
         Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
         Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Сборка проекта "C:\\Users\\User\\Desktop\\Plus\\Hello GitHub\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      Сборка проекта "C:\\Users\\User\\Desktop\\HostUbuntu\\Hello_GitHub1\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
       
       Сборка успешно завершена.
           Предупреждений: 0
@@ -112,7 +112,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/User/Desktop/Plus/Hello GitHub/build/CMakeFiles/3.26.4/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/User/Desktop/HostUbuntu/Hello_GitHub1/build/CMakeFiles/3.26.4/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
@@ -123,8 +123,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/User/Desktop/Plus/Hello GitHub/build/CMakeFiles/CMakeScratch/TryCompile-cxpkrj"
-      binary: "C:/Users/User/Desktop/Plus/Hello GitHub/build/CMakeFiles/CMakeScratch/TryCompile-cxpkrj"
+      source: "C:/Users/User/Desktop/HostUbuntu/Hello_GitHub1/build/CMakeFiles/CMakeScratch/TryCompile-n9t5gd"
+      binary: "C:/Users/User/Desktop/HostUbuntu/Hello_GitHub1/build/CMakeFiles/CMakeScratch/TryCompile-n9t5gd"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -132,37 +132,37 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/User/Desktop/Plus/Hello GitHub/build/CMakeFiles/CMakeScratch/TryCompile-cxpkrj
+        Change Dir: C:/Users/User/Desktop/HostUbuntu/Hello_GitHub1/build/CMakeFiles/CMakeScratch/TryCompile-n9t5gd
         
-        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_424fe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
-        Сборка начата 05.06.2023 11:54:58.
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c4044.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 05.06.2023 14:11:52.
         
-        Проект "C:\\Users\\User\\Desktop\\Plus\\Hello GitHub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxpkrj\\cmTC_424fe.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "C:\\Users\\User\\Desktop\\HostUbuntu\\Hello_GitHub1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n9t5gd\\cmTC_c4044.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_424fe.dir\\Debug\\".
-          Создание каталога "C:\\Users\\User\\Desktop\\Plus\\Hello GitHub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxpkrj\\Debug\\".
-          Создание каталога "cmTC_424fe.dir\\Debug\\cmTC_424fe.tlog\\".
+          Создание каталога "cmTC_c4044.dir\\Debug\\".
+          Создание каталога "C:\\Users\\User\\Desktop\\HostUbuntu\\Hello_GitHub1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n9t5gd\\Debug\\".
+          Создание каталога "cmTC_c4044.dir\\Debug\\cmTC_c4044.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_424fe.dir\\Debug\\cmTC_424fe.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Создание "cmTC_c4044.dir\\Debug\\cmTC_c4044.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_424fe.dir\\Debug\\\\" /Fd"cmTC_424fe.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c4044.dir\\Debug\\\\" /Fd"cmTC_c4044.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32532 для x64
           CMakeCCompilerABI.c
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_424fe.dir\\Debug\\\\" /Fd"cmTC_424fe.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c4044.dir\\Debug\\\\" /Fd"cmTC_c4044.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Desktop\\Plus\\Hello GitHub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxpkrj\\Debug\\cmTC_424fe.exe" /INCREMENTAL /ILK:"cmTC_424fe.dir\\Debug\\cmTC_424fe.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Desktop/Plus/Hello GitHub/build/CMakeFiles/CMakeScratch/TryCompile-cxpkrj/Debug/cmTC_424fe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Desktop/Plus/Hello GitHub/build/CMakeFiles/CMakeScratch/TryCompile-cxpkrj/Debug/cmTC_424fe.lib" /MACHINE:X64  /machine:x64 cmTC_424fe.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_424fe.vcxproj -> C:\\Users\\User\\Desktop\\Plus\\Hello GitHub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxpkrj\\Debug\\cmTC_424fe.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Desktop\\HostUbuntu\\Hello_GitHub1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n9t5gd\\Debug\\cmTC_c4044.exe" /INCREMENTAL /ILK:"cmTC_c4044.dir\\Debug\\cmTC_c4044.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Desktop/HostUbuntu/Hello_GitHub1/build/CMakeFiles/CMakeScratch/TryCompile-n9t5gd/Debug/cmTC_c4044.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Desktop/HostUbuntu/Hello_GitHub1/build/CMakeFiles/CMakeScratch/TryCompile-n9t5gd/Debug/cmTC_c4044.lib" /MACHINE:X64  /machine:x64 cmTC_c4044.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_c4044.vcxproj -> C:\\Users\\User\\Desktop\\HostUbuntu\\Hello_GitHub1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n9t5gd\\Debug\\cmTC_c4044.exe
         FinalizeBuildStatus:
-          Файл "cmTC_424fe.dir\\Debug\\cmTC_424fe.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_424fe.dir\\Debug\\cmTC_424fe.tlog\\cmTC_424fe.lastbuildstate".
-        Сборка проекта "C:\\Users\\User\\Desktop\\Plus\\Hello GitHub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxpkrj\\cmTC_424fe.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_c4044.dir\\Debug\\cmTC_c4044.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_c4044.dir\\Debug\\cmTC_c4044.tlog\\cmTC_c4044.lastbuildstate".
+        Сборка проекта "C:\\Users\\User\\Desktop\\HostUbuntu\\Hello_GitHub1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n9t5gd\\cmTC_c4044.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0
             Ошибок: 0
         
-        Прошло времени 00:00:00.50
+        Прошло времени 00:00:00.52
         
       exitCode: 0
   -
@@ -174,8 +174,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/User/Desktop/Plus/Hello GitHub/build/CMakeFiles/CMakeScratch/TryCompile-8pgia0"
-      binary: "C:/Users/User/Desktop/Plus/Hello GitHub/build/CMakeFiles/CMakeScratch/TryCompile-8pgia0"
+      source: "C:/Users/User/Desktop/HostUbuntu/Hello_GitHub1/build/CMakeFiles/CMakeScratch/TryCompile-ww8gkt"
+      binary: "C:/Users/User/Desktop/HostUbuntu/Hello_GitHub1/build/CMakeFiles/CMakeScratch/TryCompile-ww8gkt"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -183,37 +183,37 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/User/Desktop/Plus/Hello GitHub/build/CMakeFiles/CMakeScratch/TryCompile-8pgia0
+        Change Dir: C:/Users/User/Desktop/HostUbuntu/Hello_GitHub1/build/CMakeFiles/CMakeScratch/TryCompile-ww8gkt
         
-        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7c21e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
-        Сборка начата 05.06.2023 11:54:59.
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_38d4c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 05.06.2023 14:11:53.
         
-        Проект "C:\\Users\\User\\Desktop\\Plus\\Hello GitHub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pgia0\\cmTC_7c21e.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "C:\\Users\\User\\Desktop\\HostUbuntu\\Hello_GitHub1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ww8gkt\\cmTC_38d4c.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_7c21e.dir\\Debug\\".
-          Создание каталога "C:\\Users\\User\\Desktop\\Plus\\Hello GitHub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pgia0\\Debug\\".
-          Создание каталога "cmTC_7c21e.dir\\Debug\\cmTC_7c21e.tlog\\".
+          Создание каталога "cmTC_38d4c.dir\\Debug\\".
+          Создание каталога "C:\\Users\\User\\Desktop\\HostUbuntu\\Hello_GitHub1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ww8gkt\\Debug\\".
+          Создание каталога "cmTC_38d4c.dir\\Debug\\cmTC_38d4c.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_7c21e.dir\\Debug\\cmTC_7c21e.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Создание "cmTC_38d4c.dir\\Debug\\cmTC_38d4c.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7c21e.dir\\Debug\\\\" /Fd"cmTC_7c21e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_38d4c.dir\\Debug\\\\" /Fd"cmTC_38d4c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32532 для x64
           CMakeCXXCompilerABI.cpp
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7c21e.dir\\Debug\\\\" /Fd"cmTC_7c21e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_38d4c.dir\\Debug\\\\" /Fd"cmTC_38d4c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Desktop\\Plus\\Hello GitHub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pgia0\\Debug\\cmTC_7c21e.exe" /INCREMENTAL /ILK:"cmTC_7c21e.dir\\Debug\\cmTC_7c21e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Desktop/Plus/Hello GitHub/build/CMakeFiles/CMakeScratch/TryCompile-8pgia0/Debug/cmTC_7c21e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Desktop/Plus/Hello GitHub/build/CMakeFiles/CMakeScratch/TryCompile-8pgia0/Debug/cmTC_7c21e.lib" /MACHINE:X64  /machine:x64 cmTC_7c21e.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_7c21e.vcxproj -> C:\\Users\\User\\Desktop\\Plus\\Hello GitHub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pgia0\\Debug\\cmTC_7c21e.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Desktop\\HostUbuntu\\Hello_GitHub1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ww8gkt\\Debug\\cmTC_38d4c.exe" /INCREMENTAL /ILK:"cmTC_38d4c.dir\\Debug\\cmTC_38d4c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Desktop/HostUbuntu/Hello_GitHub1/build/CMakeFiles/CMakeScratch/TryCompile-ww8gkt/Debug/cmTC_38d4c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Desktop/HostUbuntu/Hello_GitHub1/build/CMakeFiles/CMakeScratch/TryCompile-ww8gkt/Debug/cmTC_38d4c.lib" /MACHINE:X64  /machine:x64 cmTC_38d4c.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_38d4c.vcxproj -> C:\\Users\\User\\Desktop\\HostUbuntu\\Hello_GitHub1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ww8gkt\\Debug\\cmTC_38d4c.exe
         FinalizeBuildStatus:
-          Файл "cmTC_7c21e.dir\\Debug\\cmTC_7c21e.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_7c21e.dir\\Debug\\cmTC_7c21e.tlog\\cmTC_7c21e.lastbuildstate".
-        Сборка проекта "C:\\Users\\User\\Desktop\\Plus\\Hello GitHub\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pgia0\\cmTC_7c21e.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_38d4c.dir\\Debug\\cmTC_38d4c.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_38d4c.dir\\Debug\\cmTC_38d4c.tlog\\cmTC_38d4c.lastbuildstate".
+        Сборка проекта "C:\\Users\\User\\Desktop\\HostUbuntu\\Hello_GitHub1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ww8gkt\\cmTC_38d4c.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0
             Ошибок: 0
         
-        Прошло времени 00:00:00.51
+        Прошло времени 00:00:00.52
         
       exitCode: 0
 ...

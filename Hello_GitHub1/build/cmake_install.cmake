@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/User/Desktop/Plus/Hello GitHub
+# Install script for directory: C:/Users/User/Desktop/HostUbuntu/Hello_GitHub1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/User/Desktop/Plus/Hello GitHub/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/User/Desktop/HostUbuntu/Hello_GitHub1/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,6 +1,6 @@
-^C:\USERS\USER\DESKTOP\PLUS\HELLO GITHUB\BUILD\CMAKEFILES\1A09D5E47833DA684FFB081B5D3F6EA2\GENERATE.STAMP.RULE
+^C:\USERS\USER\DESKTOP\HOSTUBUNTU\HELLO_GITHUB1\BUILD\CMAKEFILES\F962ACF49279C280E4C2BFBD35F4D938\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Desktop/Plus/Hello GitHub" "-BC:/Users/User/Desktop/Plus/Hello GitHub/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/User/Desktop/Plus/Hello GitHub/build/01.hello_github.sln"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User/Desktop/HostUbuntu/Hello_GitHub1 -BC:/Users/User/Desktop/HostUbuntu/Hello_GitHub1/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/User/Desktop/HostUbuntu/Hello_GitHub1/build/01.hello_github.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

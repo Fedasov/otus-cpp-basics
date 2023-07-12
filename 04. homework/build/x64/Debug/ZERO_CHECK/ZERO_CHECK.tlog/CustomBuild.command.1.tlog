@@ -1,0 +1,10 @@
+^C:\USERS\USER\DESKTOP\PLUS\10. СТРУКТУРЫ И КЛАССЫ\04. HOMEWORK\BUILD\CMAKEFILES\1C8EBA7C5093CB4BFEE0079C0CA490E9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Desktop/Plus/10. Структуры и классы/04. homework" "-BC:/Users/User/Desktop/Plus/10. Структуры и классы/04. homework/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/User/Desktop/Plus/10. Структуры и классы/04. homework/build/calc.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

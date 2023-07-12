@@ -1,0 +1,10 @@
+^C:\USERS\USER\DESKTOP\PLUS\10. СТРУКТУРЫ И КЛАССЫ\04. HOMEWORK\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Desktop/Plus/10. Структуры и классы/04. homework" "-BC:/Users/User/Desktop/Plus/10. Структуры и классы/04. homework/build" --check-stamp-file "C:/Users/User/Desktop/Plus/10. Структуры и классы/04. homework/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

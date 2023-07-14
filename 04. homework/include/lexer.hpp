@@ -4,6 +4,7 @@
 #pragma once
 
 #include <istream>
+#include <iostream>
 #include <string>
 
 class Lexer {
@@ -30,6 +31,8 @@ class Lexer {
     std::string get_operator() const { return operator_; }
 
     std::string get_name() const { return name_; }
+
+    ASTNode Add() const {}
 
   protected:
     bool isbrace(char ch) const;
@@ -58,12 +61,15 @@ inline Lexer::Lexer(std::istream &in)
     : state_(State::Empty)
     , number_(0)
     , in_(in) {
+      std::cout << "III" <<std::endl;
     next_char();
+    std::cout << "chislo = " << ch_ <<std::endl; 
 }
 
 inline char Lexer::next_char() {
+    std::cout << "FFFF" << std::endl;
     in_.get(ch_);
-    return ch_;
+    return ch_; 
 }
 
 inline bool Lexer::end() const { return in_.eof() || ch_ == '\n'; }

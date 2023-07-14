@@ -17,11 +17,14 @@ int main() {
     // Variable
 
     // Without implementation that classes this application works only with numbers
+    std::cout << "Write primer" << std::endl;
 
     Lexer lexer(std::cin);
+    std::cout <<"main"<< std::endl;
     Parser parser(lexer);
 
     ASTNode *ast = parser.parse();
+    std::cout << ast << std::endl;
     if (ast) {
          ast->print(std::cout);
     }

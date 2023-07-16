@@ -2,38 +2,38 @@
 #include "number.hpp"
 #include "variable.hpp"
 #include "add.hpp"
+#include "sub.hpp"
+#include "mul.hpp"
+#include "div.hpp"
+
+#include <iostream>
+
+
+using namespace std;
 
 using Token = Lexer::Token;
-using namespace std;
 
 ASTNode *Parser::parse() { return expr(); }
 
-void Parser::next_token() { 
-    cout << "parser" << endl;
-    tok_ = lexer_.next_token(); 
-    cout << "next_token konec" << endl << endl;
-    }
+void Parser::next_token() { tok_ = lexer_.next_token(); }
 
 ASTNode *Parser::expr() {
     // parse addition and subsctruction
     ASTNode *root = term();
+    cout << "expr" << endl;
     for (;;) {
         switch (tok_) {
         case Token::Operator: {
             std::string op = lexer_.get_operator();
             switch (op.front()) {
             case '+':
-                cout << "ch_ okazalos +" << endl;
                 // Implement Add class and uncomment this line
-                cout << root << endl;
-                // root = new Add(root, term());
-
+                cout << "Add +" << endl;
+                root = new Add(root, term());
                 break;
-                //return root;
             case '-':
                 // Implement Sub class and uncomment this line
-                //root = new Sub(root, term());
-                return nullptr;
+                root = new Sub(root, term());
                 break;
             default:
                 return root;
@@ -49,26 +49,21 @@ ASTNode *Parser::expr() {
 ASTNode *Parser::term() {
     // parse multiplication and division
     ASTNode *root = prim();
-    cout << " _______ "<< endl;
+    cout << "term" << endl;
     for (;;) {
         switch (tok_) {
         case Token::Operator: {
-            cout << "zdes" << endl;
             std::string op = lexer_.get_operator();
-            cout << op << endl;
             switch (op.front()) {
             case '*':
                 // Implement Mul class and uncomment this line
-                // root = new Mul(root, prim());
-                return nullptr;
+                root = new Mul(root, prim());
                 break;
             case '/':
                 // Implement Div class and uncomment this line
-                //root = new Div(root, prim());
-                return nullptr;
+                root = new Div(root, prim());
                 break;
             default:
-                cout << "defoult" << endl;
                 return root;
             }
             break;
@@ -79,16 +74,17 @@ ASTNode *Parser::term() {
     }
 }
 
+
 ASTNode *Parser::prim() {
     // parse numbers and names
+    cout << "prim" << endl;
     ASTNode *node = nullptr;
-    cout << "popal v prim" << endl << endl;
     next_token();
     switch (tok_) {
-    case Token::Number:
-        cout << "Popal v prim Token::Number" << endl;
+    case Token::Number: 
+        cout << "prim Number" << endl;
         node = new Number(lexer_.get_number());
-        cout << node<< endl;
+        cout << "node" << endl;
         break;
     case Token::Name:
         // Implement Variable class and uncomment this line
@@ -98,6 +94,6 @@ ASTNode *Parser::prim() {
         break;
     }
     next_token();
-    cout << node<< endl;
+    cout << "prim end" << endl; 
     return node;
 }

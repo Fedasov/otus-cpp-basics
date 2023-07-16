@@ -20,7 +20,6 @@ void Parser::next_token() { tok_ = lexer_.next_token(); }
 ASTNode *Parser::expr() {
     // parse addition and subsctruction
     ASTNode *root = term();
-    cout << "expr" << endl;
     for (;;) {
         switch (tok_) {
         case Token::Operator: {
@@ -28,7 +27,6 @@ ASTNode *Parser::expr() {
             switch (op.front()) {
             case '+':
                 // Implement Add class and uncomment this line
-                cout << "Add +" << endl;
                 root = new Add(root, term());
                 break;
             case '-':
@@ -49,7 +47,6 @@ ASTNode *Parser::expr() {
 ASTNode *Parser::term() {
     // parse multiplication and division
     ASTNode *root = prim();
-    cout << "term" << endl;
     for (;;) {
         switch (tok_) {
         case Token::Operator: {
@@ -77,14 +74,11 @@ ASTNode *Parser::term() {
 
 ASTNode *Parser::prim() {
     // parse numbers and names
-    cout << "prim" << endl;
     ASTNode *node = nullptr;
     next_token();
     switch (tok_) {
     case Token::Number: 
-        cout << "prim Number" << endl;
         node = new Number(lexer_.get_number());
-        cout << "node" << endl;
         break;
     case Token::Name:
         // Implement Variable class and uncomment this line
@@ -94,6 +88,5 @@ ASTNode *Parser::prim() {
         break;
     }
     next_token();
-    cout << "prim end" << endl; 
     return node;
 }

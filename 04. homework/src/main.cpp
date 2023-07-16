@@ -21,7 +21,6 @@ int main() {
     using namespace std;
     Lexer lexer(std::cin);
     Parser parser(lexer);
-    cout<< "main" << endl;
 
     ASTNode *ast = parser.parse();
     if (ast) {

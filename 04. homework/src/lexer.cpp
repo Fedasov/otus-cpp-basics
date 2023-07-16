@@ -12,7 +12,6 @@ Lexer::Token Lexer::next_token() {
         case State::End:
             return Token::End;
         case State::ReadNumber:
-            std::cout<< "ReadNumber" << endl;
             if (end()) {
                 state_ = State::End;
                 return Token::Number;
@@ -26,7 +25,6 @@ Lexer::Token Lexer::next_token() {
             state_ = State::Empty;
             return Token::Number;
         case State::ReadName:
-            std::cout<< "ReadName" << endl;
             if (end()) {
                 state_ = State::End;
                 return Token::Name;
@@ -39,7 +37,6 @@ Lexer::Token Lexer::next_token() {
             state_ = State::Empty;
             return Token::Name;
         case State::Empty:
-            std::cout<< "Empty" << endl;
             if (end()) {
                 state_ = State::End;
                 return Token::End;

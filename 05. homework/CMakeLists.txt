@@ -1,0 +1,35 @@
+cmake_minimum_required(VERSION 3.5)
+
+project(statistics CXX)
+
+add_executable(statistics 
+    src/main.cpp
+    src/stat.cpp
+    src/min.cpp
+    src/max.cpp
+    src/mean.cpp
+    src/std.cpp
+    src/pct.cpp
+    )
+
+#target_include_directories(statistics PRIVATE src)
+
+if (CMAKE_CXX_COMPILER_ID MATCHES "Clang" OR
+    CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
+    target_compile_options(statistics PRIVATE 
+        -g
+        -Wall
+        -Wextra
+        -Werror
+        -pedantic
+    )
+elseif (CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
+    target_compile_options(statistics PRIVATE
+        /EHsc
+        /W4
+        /WX
+    )
+endif()
+
+target_compile_features(statistics PUBLIC cxx_std_17)
+

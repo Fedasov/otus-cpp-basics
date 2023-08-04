@@ -6,7 +6,7 @@
 
 int random(int max_value) {
 
-	std::srand(std::time(nullptr)); // use current time as seed for random generator
+	std::srand((unsigned int)std::time(nullptr)); // use current time as seed for random generator
 
 	const int random_value = std::rand() % max_value;
 

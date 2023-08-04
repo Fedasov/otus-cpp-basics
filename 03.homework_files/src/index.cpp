@@ -21,7 +21,7 @@ int main() {
 	if (!file.is_open())
 	{
 		std::cout << "Error! File was not opened!" << std::endl;
-		return false;
+		return 1;
 	}
 
     int value = 0, i = 0;

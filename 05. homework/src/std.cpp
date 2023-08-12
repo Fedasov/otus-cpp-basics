@@ -1,7 +1,7 @@
 #include <vector>
 
-#include "stat.cpp"
-// #include "std.h"
+#include "stat.h"
+#include "std.h"
 
 using namespace std;
 
@@ -29,13 +29,13 @@ public:
         arr.push_back(next);
 	}
 
-	double eval() const override {
+	double eval() const {
         Std s;
         double c = s.std_d(arr, sum, k);
 		return c;
 	}
 
-	const char * name() const override {
+	const char * name() const {
 		return "std";
 	}
 

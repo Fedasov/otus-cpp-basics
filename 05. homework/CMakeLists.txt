@@ -12,7 +12,7 @@ add_executable(statistics
     src/pct.cpp
     )
 
-#target_include_directories(statistics PRIVATE src)
+target_include_directories(statistics PRIVATE include)
 
 if (CMAKE_CXX_COMPILER_ID MATCHES "Clang" OR
     CMAKE_CXX_COMPILER_ID STREQUAL "GNU")

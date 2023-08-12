@@ -2,8 +2,8 @@
 #include <math.h>
 #include <algorithm>
 
-// #include "pct.h"
-#include "stat.cpp"
+#include "pct.h"
+#include "stat.h"
 
 using namespace std;
 

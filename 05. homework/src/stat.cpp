@@ -1,5 +1,4 @@
-//#include "stat.h"
-#pragma once
+#include "stat.h"
 
 class IStatistics {
 public:

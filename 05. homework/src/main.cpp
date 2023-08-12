@@ -1,20 +1,20 @@
-#pragma once
 #include <iostream>
 #include <limits>
 
-// #include "stat.h"
-// #include "min.h"
-// #include "max.h"
-// #include "mean.h"
-// #include "std.h"
-// #include "pct.h"
+#include "stat.h"
+#include "min.h"
+#include "max.h"
+#include "mean.h"
+#include "std.h"
+#include "stat.h"
+#include "pct.h"
 
-#include "stat.cpp"
-#include "min.cpp"
-#include "max.cpp"
-#include "mean.cpp"
-#include "std.cpp"
-#include "pct.cpp"
+// #include "stat.cpp"
+// #include "min.cpp"
+// #include "max.cpp"
+// #include "mean.cpp"
+// #include "std.cpp"
+// #include "pct.cpp"
 
 using namespace std;
 

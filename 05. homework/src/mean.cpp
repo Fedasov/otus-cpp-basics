@@ -1,5 +1,5 @@
-#include "stat.cpp"
-// #include "mean.h"
+#include "stat.h"
+#include "mean.h"
 using namespace std;
 
 

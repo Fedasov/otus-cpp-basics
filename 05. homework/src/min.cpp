@@ -1,6 +1,6 @@
 #include <limits>
-#include "stat.cpp"
-// #include "min.h"
+#include "stat.h"
+#include "min.h"
 
 using namespace std;
 
